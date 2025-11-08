@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/tech-news.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/tech-news",
+      "destination": "/api/tech-news"
+    }
+  ]
+}
+

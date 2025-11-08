@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Shubh Gupta - Software Engineer | Backend & Full-Stack Systems</title>
+    <meta name="description" content="Product-minded software engineer specializing in backend and full-stack systems. Building reliable, scalable software with focus on observability and performance." />
+    <meta name="author" content="Shubh Gupta" />
+    <meta name="keywords" content="software engineer, backend developer, full-stack, Kafka, MongoDB, React, Python, JavaScript, system design" />
+
+    <meta property="og:title" content="Shubh Gupta - Software Engineer Portfolio" />
+    <meta property="og:description" content="Building reliable, scalable software that ships. Backend & full-stack systems specialist." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/placeholder.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shubh Gupta - Software Engineer" />
+    <meta name="twitter:description" content="Building reliable, scalable software that ships" />
+    <meta name="twitter:image" content="/placeholder.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Initialize theme before React loads - respect saved preference or default to dark -->
+    <script>
+      (function() {
+        // Read saved theme preference or default to dark
+        const stored = localStorage.getItem('theme');
+        const theme = stored || 'dark';
+        
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

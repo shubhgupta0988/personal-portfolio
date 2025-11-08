@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shubh Gupta - Thoughts in Code</title>
+    <description>Writing about systems, architecture, and engineering practices</description>
+    <link>https://yoursite.com/blog</link>
+    <atom:link href="https://yoursite.com/rss.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 GMT</lastBuildDate>
+    
+    <item>
+      <title>Building Scalable Data Pipelines with Kafka</title>
+      <description>Lessons learned from deploying production Kafka workflows handling thousands of events per second</description>
+      <link>https://yoursite.com/blog/building-scalable-kafka-pipelines</link>
+      <guid>https://yoursite.com/blog/building-scalable-kafka-pipelines</guid>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+      <category>Kafka</category>
+      <category>Backend</category>
+      <category>Architecture</category>
+    </item>
+    
+    <item>
+      <title>Knowledge Graphs for Document Retrieval</title>
+      <description>How graph-based approaches outperform vector search for complex relationship queries</description>
+      <link>https://yoursite.com/blog/knowledge-graphs-rag</link>
+      <guid>https://yoursite.com/blog/knowledge-graphs-rag</guid>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
+      <category>Neo4j</category>
+      <category>RAG</category>
+      <category>AI</category>
+    </item>
+    
+    <item>
+      <title>Observability in Production Systems</title>
+      <description>Setting up monitoring, logging, and alerting for mission-critical services</description>
+      <link>https://yoursite.com/blog/observability-production-systems</link>
+      <guid>https://yoursite.com/blog/observability-production-systems</guid>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+      <category>DevOps</category>
+      <category>SRE</category>
+      <category>Monitoring</category>
+    </item>
+    
+    <item>
+      <title>Microservices Communication Patterns</title>
+      <description>Comparing sync vs async patterns, event-driven architecture, and choosing the right communication strategy</description>
+      <link>https://yoursite.com/blog/microservices-communication-patterns</link>
+      <guid>https://yoursite.com/blog/microservices-communication-patterns</guid>
+      <pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate>
+      <category>Microservices</category>
+      <category>Architecture</category>
+      <category>Backend</category>
+    </item>
+  </channel>
+</rss>
